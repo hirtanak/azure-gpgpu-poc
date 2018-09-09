@@ -40,6 +40,6 @@ echo "btl=tcp,self,sm" >> /home/$USER/altair/20180806_nanoFluidX_SA_2018.0.0.10_
 echo "btl_tcp_if_include=docker0,lo,eth0" >> /home/$USER/altair/20180806_nanoFluidX_SA_2018.0.0.10_beta_SP/libs/openmpi/2.1.2-ibverbs/etc/openmpi-mca-params.conf
 
 #ultraFuildX
-echo "btl=tcp,self,sm" >> /home/$USER/altair/ultraFuildX/mpi/linux64/openmpi/openmpi-mca-params.conf
-echo "btl_tcp_if_include=docker0,lo,eth0" >> /home/$USER/altair/ultraFuildX/mpi/linux64/openmpi/openmpi-mca-params.conf
+echo "btl=tcp,self,sm" >> /home/$USER/altair/ultraFuildX/mpi/linux64/openmpi/etc/openmpi-mca-params.conf
+echo "btl_tcp_if_include=docker0,lo,eth0" >> /home/$USER/altair/ultraFuildX/mpi/linux64/openmpi/etc/openmpi-mca-params.conf
 
