@@ -30,6 +30,7 @@ cd $SHARE_DATA/altair/ultraFuildX
 chown -R $USER:$USER $SHARE_DATA/altair/ultraFuildX/ultraFluidX.v2018.0.1.2.linux64.bin
 chmod +x $SHARE_DATA/altair/ultraFuildX/ultraFluidX.v2018.0.1.2.linux64.bin
 sh $SHARE_DATA/altair/ultraFuildX/ultraFluidX.v2018.0.1.2.linux64.bin
+chown -R $USER:$USER $SHARE_DATA/altair/ultraFuildX
 
 chmod 755 $SHARE_DATA/altair/altair_licensing_14.0.2.linux_x64.bin
 
