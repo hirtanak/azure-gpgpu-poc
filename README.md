@@ -5,7 +5,7 @@ Azure Resource Manager Templates for GPGPU アプリケーション用のAzure A
 <td align="center">
 Altair nanoFuildX, ultraFuildX追加
 <br><br>
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhirtanak%2Fazure-gpgpu-cluster-poc%2Fmaster%2Fazuredeploy_gpgpu01.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhirtanak%2Fazure-gpgpu-poc%2Fmaster%2Fazuredeploy_gpgpu01.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png" />
 </a>
 </td></tr>
