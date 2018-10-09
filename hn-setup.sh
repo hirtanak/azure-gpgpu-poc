@@ -65,6 +65,9 @@ systemctl start nfs-server
 systemctl start nfs-lock
 systemctl start nfs-idmap
 systemctl restart nfs-server
+mkdir -p /data/scratch
+chmod 777 /data/scratch
+chown -R $USER:$USER /data/$USER/
 
 mv clusRun.sh cn-setup.sh install-$SOLVER.sh /home/$USER/bin
 chmod +x /home/$USER/bin/*.sh
